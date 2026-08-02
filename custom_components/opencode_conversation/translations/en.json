@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "OpenCode",
+        "description": "Connect to an opencode server to use it as a conversation agent.",
+        "data": {
+          "url": "Server URL (e.g. http://localhost:4096)",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the OpenCode server",
+      "unknown": "Unexpected error"
+    }
+  }
+}

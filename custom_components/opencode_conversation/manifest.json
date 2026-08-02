@@ -1,0 +1,15 @@
+{
+  "domain": "opencode_conversation",
+  "name": "OpenCode Conversation",
+  "codeowners": [
+    "@GeekOfBohemia"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "conversation"
+  ],
+  "documentation": "https://opencode.ai",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "version": "0.1.0"
+}
